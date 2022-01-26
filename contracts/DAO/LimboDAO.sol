@@ -117,7 +117,7 @@ contract LimboDAO is Ownable {
   ProposalState public currentProposalState;
   ProposalState public previousProposalState;
 
-  // Since staking EYE precludes it from earning Flan on Limbo, fateToFlan can optionally be set to a non zero number to allow fat holders to spend their fate for Flan.
+  // Since staking EYE precludes it from earning Flan on Limbo, fateToFlan can optionally be set to a non zero number to allow fate holders to spend their fate for Flan.
   uint256 public fateToFlan;
 
   modifier isLive() {
